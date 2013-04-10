@@ -53,13 +53,15 @@
   </section>
   <section class="slide" id="4">
     <div>
-      <h2>We Brought in KnockoutJS -- here are the pros</h2>
-      <p>
-        It's implementation of the MVVM pattern meant we could just right plain ol' javascript objects, which are easy to unit-test
-        and don't require testing the integration with the DOM. Knockout's job is binding to the dom, which we could visually verify 
-        was working correctly.
-      </p>
-      <p>It also meant we could use Mozilla's JS Engine Rhino for testing, since we were free of the DOM</p>
+      <h2>Presentation Model with KnockoutJS</h2>
+      <ul>
+        <li><strong>Focused</strong> tests</li>
+        <li>Leave the DOM out of it* &mdash; we know it works!</li>
+        <li><strong>Fast</strong> tests &mdash; behavior tested headlessly in a JS runtime</li>
+      </ul>
+      <br />
+      <br />
+      <p>* a few tests through the whole system worked for us</p>
     </div>
   </section>
   <section class="slide" id="5">
