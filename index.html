@@ -3,7 +3,7 @@
 <head>
   <title>Creating Testable UIs</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="showerjs/themes/ribbon/styles/screen.css">
+  <link rel="stylesheet" href="bright-theme/styles/screen.css">
 </head>
 <body class="list">
   <header class="caption">
@@ -14,61 +14,77 @@
     </p>
   </header>
   <section class="slide cover">
-    <h2>Creating Testable UIs</h2>
-    <h3>with KnockoutJS, Jasmine, and Steve</h3>
+    <div>
+      <h2>Creating Testable UIs</h2>
+      <h3>with KnockoutJS, Jasmine, and Steve</h3>
+    </div>
   </section>
   <section class="slide" id="2">
-    <h2>The Problem</h2>
-    <p>
-      We wanted a <strong>friendly</strong> UI<br />
-      that we could change with <strong>confidence</strong>
-    </p>
+    <div>
+      <h2>The Problem</h2>
+      <p>
+        We wanted a <strong>friendly</strong> UI<br />
+        that we could change with <strong>confidence</strong>
+      </p>
+    </div>
   </section>
   <section class="slide" id="3">
-    <h2>Our Options</h2>
-    <ul>
-      <li>Selenium, Webdriver on a real browser (slow)</li>
-      <li>Manually checking interactions (error-prone)</li>
-      <li>Headless, browser emulators like envjs and htmlunit (not quite the real thing)</li>
-      <li>Headless browsers like phantomjs (interesting)</li>
-      <li>Decoupling from the <abbr title="Document Object Model">DOM</abbr> and using the MVVM pattern (interesting)</li>
-    </ul>
+    <div>
+      <h2>Our Options</h2>
+      <ul>
+        <li>Selenium, Webdriver on a real browser (slow)</li>
+        <li>Manually checking interactions (error-prone)</li>
+        <li>Headless, browser emulators like envjs and htmlunit (not quite the real thing)</li>
+        <li>Headless browsers like phantomjs (interesting)</li>
+        <li>Decoupling from the <abbr title="Document Object Model">DOM</abbr> and using the MVVM pattern (interesting)</li>
+      </ul>
+    </div>
   </section>
   <section class="slide" id="4">
-    <h2>We Brought in KnockoutJS -- here are the pros</h2>
-    <p>
-      It's implementation of the MVVM pattern meant we could just right plain ol' javascript objects, which are easy to unit-test
-      and don't require testing the integration with the DOM. Knockout's job is binding to the dom, which we could visually verify 
-      was working correctly.
-    </p>
-    <p>It also meant we could use Mozilla's JS Engine Rhino for testing, since we were free of the DOM</p>
+    <div>
+      <h2>We Brought in KnockoutJS -- here are the pros</h2>
+      <p>
+        It's implementation of the MVVM pattern meant we could just right plain ol' javascript objects, which are easy to unit-test
+        and don't require testing the integration with the DOM. Knockout's job is binding to the dom, which we could visually verify 
+        was working correctly.
+      </p>
+      <p>It also meant we could use Mozilla's JS Engine Rhino for testing, since we were free of the DOM</p>
+    </div>
   </section>
   <section class="slide" id="5">
-    <h2>But How?</h2>
-    <p>
-      Let's build a login form. We want to help our users out by not letting them click the button until both a username and password
-      are present
-    </p>
-    <p>
-      <pre>// SOME CODE</pre>
-    </p>
+    <div>
+      <h2>But How?</h2>
+      <p>
+        Let's build a login form. We want to help our users out by not letting them click the button until both a username and password
+        are present
+      </p>
+      <p>
+        <pre>// SOME CODE</pre>
+      </p>
+    </div>
   </section>
   <section class="slide" id="6">
-    <h2>What's the catch?</h2>
-    <p>If SEO is a concern, this approach is going to require some extra work. Google recommends having a headless browser to render your stuff
-      serverside, and send the googlebot the page (grab link).</p>
+    <div>
+      <h2>What's the catch?</h2>
+      <p>If SEO is a concern, this approach is going to require some extra work. Google recommends having a headless browser to render your stuff
+        serverside, and send the googlebot the page (grab link).</p>
+    </div>
   </section>
   <section class="slide", id="7">
-    <h2>How big of a project have you tried this on?</h2>
-    <p>15 months</p>
-    <p>? pages, ? viewmodels, ? specs</p>
+    <div>
+      <h2>How big of a project have you tried this on?</h2>
+      <p>15 months</p>
+      <p>? pages, ? viewmodels, ? specs</p>
+    </div>
   </section>
   <section class="slide", id="8">
-    <h2>Thanks!</h2>
-    <p>
-      Steve Hill<br />
-      @sghill
-    </p>
+    <div>
+      <h2>Thanks!</h2>
+      <p>
+        Steve Hill<br />
+        @sghill
+      </p>
+    </div>
   </section>
   <script src="showerjs/shower.min.js"></script>
 </body>
