@@ -1,7 +1,7 @@
 testable-ui-talk
 ================
 
-A short presentation on creating testable UIs with [KnockoutJS][ko] and [Jasmine][jasmine] using [shower][shower]
+A [short presentation](http://sghill.github.io/testable-ui-talk/) on creating testable UIs with [KnockoutJS][ko] and [Jasmine][jasmine] using [shower][shower]
 
 license
 -------
