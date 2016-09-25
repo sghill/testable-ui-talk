@@ -8,6 +8,6 @@ license
 [CC BY-SA 3.0][cc]
 
 [ko]: http://knockoutjs.com/
-[jasmine]: http://pivotal.github.io/jasmine/
+[jasmine]: https://jasmine.github.io/
 [shower]: https://github.com/shower/shower
 [cc]: http://creativecommons.org/licenses/by-sa/3.0/
